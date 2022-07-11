@@ -52,7 +52,7 @@ export const Container = styled.div`
       width: 40%;
 
       img {
-        width: 80%;
+        width: 300px;
         max-width: 400px;
         height: 290px;
       }
