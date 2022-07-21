@@ -19,7 +19,7 @@ const About = () => {
             </figure>
             <button className="curricullum">
               <a
-                href="https://docs.google.com/document/d/1-GDpE_cq7KzxiBgb2uvtq-mvue9DHA1r2cMmelTogy0/edit#"
+                href="https://drive.google.com/file/d/1z51jiP0e6Lz4VCiarazkJW0VSIxlpNiL/view"
                 target="_blank"
                 rel="noreferrer"
               >
