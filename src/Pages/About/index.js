@@ -41,12 +41,19 @@ const About = () => {
             <h2>Hard Skills</h2>
             <ul>
               <li>- JavasCript</li>
+              <li>- Typescript</li>
               <li>- React</li>
               <li>- HTML</li>
               <li>- Css</li>
               <li>- GIT</li>
               <li>- Redux</li>
               <li>- ContextAPI</li>
+              <li>- Python</li>
+              <li>- Django</li>
+              <li>- Django Rest-Framework</li>
+              <li>- NodeJs</li>
+              <li>- Express</li>
+              <li>- PostgresSQL</li>
             </ul>
           </div>
         </div>
