@@ -97,6 +97,7 @@ export const Container = styled.div`
         max-width: 400px;
         height: 290px;
         margin-top: 30px;
+        box-shadow: rgb(255 255 255 / 45%) 0px 25px 20px -20px;
       }
     }
     .aboutMe {
@@ -119,14 +120,6 @@ export const Container = styled.div`
     }
     button:hover {
       background-color: #fff;
-    }
-  }
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
     }
   }
 `;
