@@ -7,6 +7,7 @@ export const Container = styled.div`
 
   .mainProjects {
     padding-top: 20px;
+    padding-bottom: 40px;
   }
   @keyframes fadeIn {
     from {

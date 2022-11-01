@@ -11,43 +11,36 @@ const Footer = () => {
       </div>
       <div className="mediaDiv">
         <h5>Redes Sociais</h5>
-        <div>
-          <span className="icon">
-            <BsGithub />
-          </span>
+        <div className="iconsDiv">
           <a
-            className="mediaName"
             href="https://github.com/andersonrvr"
             target="_blank"
             rel="noreferrer"
           >
-            Github
+            <span className="icon">
+              <BsGithub />
+            </span>
+            <span className="mediaName">Github</span>
           </a>
-        </div>
-        <div>
-          <span className="icon">
-            <BsLinkedin />
-          </span>
           <a
-            className="mediaName"
             href="https://www.linkedin.com/in/andersonvieira-dev/"
             target="_blank"
             rel="noreferrer"
           >
-            Linkedin
+            <span className="icon">
+              <BsLinkedin />
+            </span>
+            <span className="mediaName">Linkedin</span>
           </a>
-        </div>
-        <div>
-          <span className="icon">
-            <BsInstagram />
-          </span>
           <a
-            className="mediaName"
             href="https://instagram.com/andersonxvieira"
             target="_blank"
             rel="noreferrer"
           >
-            Instagram
+            <span className="icon">
+              <BsInstagram />
+            </span>
+            <span className="mediaName">Instagram</span>
           </a>
         </div>
       </div>

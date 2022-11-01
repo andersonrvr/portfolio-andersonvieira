@@ -11,13 +11,14 @@ export const Container = styled.div`
     width: 50px;
     height: 50px;
   }
-  .html {
-    color: #e34f26;
+  .node {
+    color: #90c53f;
   }
-  .css {
-    color: #2e4de4;
+  .django {
+    color: #3776ab;
   }
   .js {
+    width: 35px;
     color: #e6c62f;
   }
   .react {
@@ -27,6 +28,9 @@ export const Container = styled.div`
     svg {
       width: 90px;
       height: 90px;
+    }
+    .js {
+      width: 65px;
     }
   }
 `;

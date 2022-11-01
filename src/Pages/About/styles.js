@@ -1,16 +1,17 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+  animation: fadeIn 2s;
+
   .infos {
     text-align: center;
-    animation: appearFromLeft 1.5s;
   }
   img {
     width: 150px;
     height: 150px;
 
     margin: 20px auto;
-    border-radius: 100%;
+    border-radius: 5px;
   }
   figcaption {
     font-size: 25px;
@@ -19,7 +20,6 @@ export const Container = styled.div`
   .aboutMe {
     padding: 15px 20px;
     font-size: 14px;
-    animation: appearFromRight 1.5s;
 
     h2 {
       margin-top: 14px;
@@ -39,6 +39,13 @@ export const Container = styled.div`
   a {
     color: #000;
   }
+  .Techs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+    margin-top: 10px;
+  }
+
   @media (min-width: 768px) {
     padding-bottom: 40px;
     .mainAbout {
@@ -74,24 +81,12 @@ export const Container = styled.div`
       background-color: #fff;
     }
   }
-  @keyframes appearFromRight {
+  @keyframes fadeIn {
     from {
       opacity: 0;
-      transform: translateX(100px);
     }
     to {
       opacity: 1;
-      transform: translateX(0px);
-    }
-  }
-  @keyframes appearFromLeft {
-    from {
-      opacity: 0;
-      transform: translateX(-100px);
-    }
-    to {
-      opacity: 1;
-      transform: translateX(0px);
     }
   }
 `;

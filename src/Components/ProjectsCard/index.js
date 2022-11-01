@@ -1,7 +1,7 @@
+import CardTecnologies from "../CardTecnologies";
 import { Container } from "./styles";
 
 const ProjectsCard = ({ infos }) => {
-  console.log(infos);
   return (
     <Container>
       <img src={infos.preview} alt={infos.name} />
@@ -13,7 +13,9 @@ const ProjectsCard = ({ infos }) => {
       </p>
       <div>
         <a href={infos.site} target="_blank" rel="noreferrer">
-          <button className="cardLink">Site</button>
+          <button className="cardLink">
+            {infos.stack === "frontend" ? "Site" : "Documentação"}
+          </button>
         </a>
 
         <a href={infos.repository} target="_blank" rel="noreferrer">

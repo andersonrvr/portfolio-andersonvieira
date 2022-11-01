@@ -32,7 +32,10 @@ export const Container = styled.div`
     background-color: #f1ede0;
     color: #000;
     font-size: 15px;
-    min-width: 40%;
+    min-width: 44%;
+  }
+  .cardLink:hover {
+    background-color: #fff;
   }
   a {
     color: black;

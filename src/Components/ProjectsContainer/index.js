@@ -6,7 +6,7 @@ const ProjectsContainer = () => {
   return (
     <Container>
       {projectsDatabase.map((e) => (
-        <ProjectsCard infos={e} />
+        <ProjectsCard infos={e} key={e.id} />
       ))}
     </Container>
   );

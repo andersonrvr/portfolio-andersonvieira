@@ -2,15 +2,16 @@ import Header from "../../Components/Header";
 import { Container } from "./styles";
 import myImage from "../../Assets/anderson-vieira.png";
 import Footer from "../../Components/Footer";
-
+import CardTecnologies from "../../Components/CardTecnologies";
+import { TechnologiesList } from "../../database";
 const About = () => {
   return (
     <>
+      <Header
+        boxshadow={"rgba(0, 0, 0, 0.3) 0px 3px 8px"}
+        background={"#1e1e1f"}
+      />
       <Container>
-        <Header
-          boxshadow={"rgba(0, 0, 0, 0.3) 0px 3px 8px"}
-          background={"#1e1e1f"}
-        />
         <div className="mainAbout">
           <div className="infos">
             <figure>
@@ -39,22 +40,11 @@ const About = () => {
               de outras pessoas.
             </p>
             <h2>Hard Skills</h2>
-            <ul>
-              <li>- JavasCript</li>
-              <li>- Typescript</li>
-              <li>- React</li>
-              <li>- HTML</li>
-              <li>- Css</li>
-              <li>- GIT</li>
-              <li>- Redux</li>
-              <li>- ContextAPI</li>
-              <li>- Python</li>
-              <li>- Django</li>
-              <li>- Django Rest-Framework</li>
-              <li>- NodeJs</li>
-              <li>- Express</li>
-              <li>- PostgresSQL</li>
-            </ul>
+            <section className="Techs">
+              {TechnologiesList.map((e) => (
+                <CardTecnologies key={e} icon={e.icon} name={e.name} />
+              ))}
+            </section>
           </div>
         </div>
       </Container>
