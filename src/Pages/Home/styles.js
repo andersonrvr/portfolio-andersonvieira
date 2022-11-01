@@ -5,6 +5,7 @@ export const Container = styled.div`
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  z-index: -99999;
   .mySelf {
     margin-top: 60px;
   }

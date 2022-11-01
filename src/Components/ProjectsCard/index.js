@@ -1,4 +1,3 @@
-import CardTecnologies from "../CardTecnologies";
 import { Container } from "./styles";
 
 const ProjectsCard = ({ infos }) => {

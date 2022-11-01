@@ -4,7 +4,7 @@ export const Container = styled.div`
   .barMobile {
     position: fixed;
     bottom: 0;
-    height: 50px;
+    height: 60px;
     display: flex;
     justify-content: space-around;
     left: 0;
